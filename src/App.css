@@ -68,7 +68,7 @@
 .wrapper {
   display: flex;
   overflow: hidden;
-  width: calc(100% - 32px);
+  width: 100%;
 }
 
 .text {
@@ -77,11 +77,10 @@
   overflow: hidden;
   line-height: 1.5;
   max-height: 4.5em;
-  transition: 0.3s max-height;
 }
 
 .exp:checked+.text{
-  max-height: 500px;
+  max-height: none;
 }
 
 .text::before {
