@@ -32,7 +32,6 @@
   font-style: normal;
   font-weight: normal;
   width: 100vm;
-  /*height: 200px;*/
   margin-bottom: 16px;
   padding: 16px;
   background-color: #FFFFFF;
@@ -66,11 +65,6 @@
   border-radius: 16px;
 }
 
-.content {
-  font-size: 16px;
-  margin: 0;
-}
-
 .wrapper {
   display: flex;
   overflow: hidden;
@@ -87,7 +81,7 @@
 }
 
 .exp:checked+.text{
-  max-height: 200px;
+  max-height: 500px;
 }
 
 .text::before {
@@ -103,9 +97,9 @@
   color: #307DFB;
 }
 
-.btn::after {
-  content: ''
-}
+/*.btn::after {*/
+/*  content: ''*/
+/*}*/
 
 .text::after {
   content: '';
